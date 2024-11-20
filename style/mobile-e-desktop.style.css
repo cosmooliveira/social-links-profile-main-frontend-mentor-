@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Inter";
+    }
+    html{
+        height: 100%;
+        background-color: hsl(0, 0%, 8%);
+        
+    }
+    main{
+        min-width:340px;
+        background-color: hsl(0, 0%, 12%);
+        
+        border-radius: 10px;
+    }
+    img{
+        width: 100px;
+        border-radius: 50%;
+        padding: 1.5rem 0px;
+    }
+    h3{
+        color:hsl(75, 94%, 57%);
+        padding: .5rem 0px;
+    }
+    p{
+        font-weight:200;
+        padding: .5rem 0px;
+        
+    }
+    a{
+        text-decoration: none;
+
+    }
+    li:hover,a:hover{
+      background-color:hsl(75, 94%, 57%) ;  
+      color: black;
+    }
+    li{
+        list-style: none;
+        padding: 10px 80px;
+        margin: 20px 0;
+        background-color: hsl(0, 0%, 20%);
+        text-align: center;
+        border-radius: 7px;
+    }
+   html, main>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    h1,p,a{
+        color: hsl(0, 0%, 100%);
+        
+    }
+    div.attribution{
+        color: white;
+    }
